@@ -23,11 +23,11 @@ net user wazuhlab /delete
 
 ### PowerShell User Created
 
-![Wazuh file modification alert](screenshots/windows-user-created.png)
+![Wazuh file modification alert](../screenshots/windows-user-created.png)
 
 ### Wazuh Alert of Added Admin
 
-![Wazuh file modification alert](screenshots/wazuh-alert-windows-admin-added.png)
+![Wazuh file modification alert](../screenshots/wazuh-alert-windows-admin-added.png)
 
 ## Security Relevance
 
