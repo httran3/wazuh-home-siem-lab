@@ -1,2 +1,1 @@
-# Screenshots
-This folder contains screenshots from the Wazuh home SIEM lab.
+# Wazuh Home SIAM Lab
