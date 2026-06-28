@@ -18,11 +18,11 @@ This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, 
 
 
 ## Detection Scenarios
-| Detection | Description | Documentation |<br>
-| File Integrity Monitoring | Detected file creation, modification, and deletion in a monitored Windows directory. | \[View detection](file-integrity-monitoring.md) |<br>
-| Kali Nmap Scan | Detected possible network reconnaissance against a Windows endpoint. | \[View detection](kali-nmap-scan.md) |<br>
-| Suspicious PowerShell Commands | Detected suspicious PowerShell execution patterns using Sysmon logs collected by Wazuh. | \[View detection](suspicious-powershell.md) |<br>
-| Windows Local User Creation | Detected local account creation and administrator group modification. | \[View detection](windows-local-user-creation.md) |
+- | Detection | Description | Documentation |<br>
+- | File Integrity Monitoring | Detected file creation, modification, and deletion in a monitored Windows directory. | \[View detection](file-integrity-monitoring.md) |<br>
+- | Kali Nmap Scan | Detected possible network reconnaissance against a Windows endpoint. | \[View detection](kali-nmap-scan.md) |<br>
+- | Suspicious PowerShell Commands | Detected suspicious PowerShell execution patterns using Sysmon logs collected by Wazuh. | \[View detection](suspicious-powershell.md) |<br>
+- | Windows Local User Creation | Detected local account creation and administrator group modification. | \[View detection](windows-local-user-creation.md) |
 
 
 
