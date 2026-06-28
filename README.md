@@ -42,23 +42,21 @@ This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, 
 
 \## Skills Demonstrated
 
-\- SIEM deployment and endpoint onboarding
+SIEM deployment and endpoint onboarding
 
-\- Wazuh agent configuration
+Wazuh agent configuration
 
-\- Windows event monitoring
+Windows event monitoring
 
-\- Sysmon log collection
+Sysmon log collection
 
-\- File Integrity Monitoring
+File Integrity Monitoring
 
-\- PowerShell-based detection testing
+PowerShell-based detection testing
 
-\- Network reconnaissance detection with Nmap
-
-\- Alert validation and documentation
-
-\- Basic incident response and remediation writing
+Network reconnaissance detection with Nmap
+Alert validation and documentation
+Basic incident response and remediation writing
 
 
 
