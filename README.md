@@ -1,4 +1,4 @@
-\# Wazuh Home SIEM Lab\
+\# Wazuh Home SIEM Lab
 
 
 
@@ -7,7 +7,7 @@ This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, 
 
 
 
-\## Lab Environment
+## Lab Environment\
 \- SIEM: Wazuh 4.14.5
 \- Wazuh Server VM: 192.168.0.207
 \- Windows 11 Endpoint: 192.168.0.118
