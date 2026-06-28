@@ -8,12 +8,12 @@ This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, 
 
 
 ## Lab Environment
-\- SIEM: Wazuh 4.14.5
-\- Wazuh Server VM: 192.168.0.207
-\- Windows 11 Endpoint: 192.168.0.118
-\- Kali Linux VM: attacker/testing system
-\- Virtualization: VMware Workstation Pro
-\- Test Method: Simulated local activity and network reconnaissance in a controlled lab environment
+- SIEM: Wazuh 4.14.5\
+- Wazuh Server VM: 192.168.0.207\
+- Windows 11 Endpoint: 192.168.0.118\
+- Kali Linux VM: attacker/testing system\
+- Virtualization: VMware Workstation Pro\
+- Test Method: Simulated local activity and network reconnaissance in a controlled lab environment
 
 
 
