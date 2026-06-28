@@ -2,7 +2,7 @@
 
 
 
-\## Summary\
+## Summary\
 This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, Sysmon, PowerShell, and Kali Linux. The lab simulates common security events, validates Wazuh alerting, and documents detection evidence, security relevance, and remediation steps.
 
 
