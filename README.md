@@ -2,12 +2,12 @@
 
 
 
-## Summary\
+## Summary
 This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, Sysmon, PowerShell, and Kali Linux. The lab simulates common security events, validates Wazuh alerting, and documents detection evidence, security relevance, and remediation steps.
 
 
 
-## Lab Environment\
+## Lab Environment
 \- SIEM: Wazuh 4.14.5
 \- Wazuh Server VM: 192.168.0.207
 \- Windows 11 Endpoint: 192.168.0.118
@@ -17,7 +17,7 @@ This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, 
 
 
 
-\## Detection Scenarios\
+## Detection Scenarios
 | Detection | Description | Documentation |
 | File Integrity Monitoring | Detected file creation, modification, and deletion in a monitored Windows directory. | \[View detection](file-integrity-monitoring.md) |
 | Kali Nmap Scan | Detected possible network reconnaissance against a Windows endpoint. | \[View detection](kali-nmap-scan.md) |
@@ -26,7 +26,7 @@ This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, 
 
 
 
-\## Skills Demonstrated\
+## Skills Demonstrated
 \SIEM deployment and endpoint onboarding
 \Wazuh agent configuration
 \Windows event monitoring
@@ -39,7 +39,7 @@ This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, 
 
 
 
-\## Evidence\
+## Evidence
 Example Wazuh dashboard and alert evidence are stored in the `screenshots/` directory.
 !\[Wazuh Agent Active](screenshots/agents-active.png)
 
