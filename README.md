@@ -28,8 +28,6 @@ This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, 
 
 | Detection | Description | Documentation |
 
-|---|---|---|
-
 | File Integrity Monitoring | Detected file creation, modification, and deletion in a monitored Windows directory. | \[View detection](file-integrity-monitoring.md) |
 
 | Kali Nmap Scan | Detected possible network reconnaissance against a Windows endpoint. | \[View detection](kali-nmap-scan.md) |
