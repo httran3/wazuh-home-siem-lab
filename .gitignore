@@ -1,0 +1,15 @@
+*.log
+*.evtx
+*.pcap
+*.zip
+*.7z
+*.ova
+*.ovf
+*.vmdk
+*.vdi
+*.iso
+*.pem
+*.key
+.env
+secrets*
+credentials*
