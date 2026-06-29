@@ -1,0 +1,9 @@
+<!--
+Custom Wazuh rules for the home SIEM lab.
+
+Future rule ideas:
+- Suspicious PowerShell flags
+- Local user creation
+- Administrator group modification
+- File integrity monitoring alerts
+-->
