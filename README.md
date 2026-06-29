@@ -32,6 +32,7 @@ This project documents a home SIEM lab built with Wazuh, a Windows 11 endpoint, 
 * PowerShell-based detection testing
 * Network reconnaissance detection with Nmap
 * Alert validation and documentation
+* Remediation and incident response
 
 ## Evidence
 
