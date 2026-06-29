@@ -21,7 +21,7 @@ sudo nmap -sS -Pn --top-ports 100 192.168.0.118
 
 ### Kali Nmap Scan
 
-![Kali Nmap Scan](../screenshots/kali-nmap-scan.png)
+![Wazuh file modification alert](../screenshots/kali-nmap-scan.png)
 
 ### Wazuh Possible Port Scan Alert
 

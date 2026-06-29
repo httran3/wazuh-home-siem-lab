@@ -1,52 +1,42 @@
-\# Detection: File Integrity Monitoring
+# Detection: File Integrity Monitoring
 
-
-
-\## Objective
+## Objective
 
 Detect file creation, modification, and deletion in a monitored Windows directory.
 
+## Lab Setup
 
+* SIEM: Wazuh
+* Endpoint: Windows 11
+* Attacker/Tester: Local Administrator PowerShell
+* Test Path: C:\WazuhLab\FIM
 
-\## Lab Setup
+## Test Commands
 
-SIEM: Wazuh
+```bash
+"Created by Wazuh FIM test" | Out-File C:\WazuhLab\FIM\test.txt
+Add-Content C:\WazuhLab\FIM\test.txt "modified content"
+Remove-Item C:\WazuhLab\FIM\test.txt
+```
 
-Endpoint: Windows 11
+## Evidence
 
-Attacker/Tester: Local Administrator PowerShell
+### Edit OSSEC Config File to Check One Directory
 
-Test Path: C:\\WazuhLab\\FIM
+![Wazuh file modification alert](../screenshots/windows-ossec-conf-fim-config.png)
 
+### PowerShell Test File Mod
 
+![Wazuh file modification alert](../screenshots/windows-fim-test-powershell.png)
 
-\## Test Commands
+### Wazuh Alert of Modified File
 
-"Created by Wazuh FIM test" | Out-File C:\\WazuhLab\\FIM\\test.txt
+![Wazuh file modification alert](../screenshots/wazuh-alert-file-modified.png)
 
-Add-Content C:\\WazuhLab\\FIM\\test.txt "modified content"
-
-Remove-Item C:\\WazuhLab\\FIM\\test.txt
-
-
-
-\## Evidence
-
-!\[Wazuh file modification alert](screenshots/wazuh-alert-file-modified.png)
-
-!\[Wazuh file modification alert](screenshots/windows-ossec-conf-fim-config.png)
-
-!\[Wazuh file modification alert](screenshots/windows-fim-test-powershell.png)
-
-
-
-\## Security Relevance
+## Security Relevance
 
 Unexpected file mods may indicate tampering, malware, persistence, or unauthorized access of sensitive files.
 
-
-
-\## Remediation
+## Remediation
 
 Validate the change, identify the user/process responsible, restore known-good files, and investigate related endpoint activity.
-
